@@ -9,3 +9,5 @@ To run the system, you need to use either PHPStorm by JetBrains or PHPDesktop (h
 
 You must use the dataset from https://zenodo.org/records/15114251 and copy it under the "DB" folder.
 
+
+Jeong, D. H., Behera, P., Jeong, B. K., Sangama, C. L., Higgs, B., & Ji, S. Y. (2025). Designing an Interactive Visual Analytics System for Precipitation Data Analysis. Preprints. https://doi.org/10.20944/preprints202503.2365.v1
