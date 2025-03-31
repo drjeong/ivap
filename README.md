@@ -7,7 +7,7 @@ An Interactive Visual Analytics System for Precipitation Data Analysis is design
 The system is designed as an online system using PHP, Javascript, HTML, and CSS.
 To run the system, you need to use either PHPStorm by JetBrains or PHPDesktop (https://github.com/cztomczak/phpdesktop). If you want, you can set up a server environment yourself with a PHP interpreter. 
 
-You must use the dataset from https://zenodo.org/records/15114251 and copy it under the "DB" folder.
+You must use the dataset from https://zenodo.org/records/15114251 and copy it under the "DB" folder. Please create a folder named "DB" in the root.
 
 
 Jeong, D. H., Behera, P., Jeong, B. K., Sangama, C. L., Higgs, B., & Ji, S. Y. (2025). Designing an Interactive Visual Analytics System for Precipitation Data Analysis. Preprints. https://doi.org/10.20944/preprints202503.2365.v1
