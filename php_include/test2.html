@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.alert {background-color: white; font-family: 'Open Sans', sans-serif; width: 478px; padding: 17px; border-radius: 5px; text-align: center; position: fixed; left: 50%; top: 50%; margin-left: -256px; margin-top: -200px; overflow: hidden;} 
+h2 {color: #575757;font-size: 30px;text-align: center;font-weight: 600;text-transform: none;position: relative;margin: 25px 0;padding: 0;line-height: 25px;display: block; } 
+p {color: #797979;font-size: 16px;text-align: center;font-weight: 300;position: relative;margin: 0;padding: 0;line-height: normal; }
+
+button {
+background-color: #AEDEF4;
+color: white;
+border: none;
+box-shadow: none;
+font-size: 17px;
+font-weight: 500;
+border-radius: 5px;
+padding: 10px 32px;
+margin: 26px 5px 0 5px;
+cursor: pointer; }
+button:focus {
+outline: none;
+box-shadow: 0 0 2px rgba(128, 179, 235, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.05); }
+button:hover {
+background-color: #a1d9f2; }
+button:active {
+background-color: #81ccee; }
+
+.icon_success {
+border-color: #A5DC86; }
+.icon_success::before, .icon_success::after {
+content: '';
+border-radius: 50%;
+position: absolute;
+width: 60px;
+height: 120px;
+background: white;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg); }
+.icon_success::before {
+border-radius: 120px 0 0 120px;
+top: -7px;
+left: -33px;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+-webkit-transform-origin: 60px 60px;
+transform-origin: 60px 60px; }
+.icon_success::after {
+border-radius: 0 120px 120px 0;
+top: -11px;
+left: 30px;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+-webkit-transform-origin: 0px 60px;
+transform-origin: 0px 60px; }
+
+
+</style>
+</head>
+<body style='background-color:gray'>
+
+<div class='alert'>
+
+<div class="icon_success">
+</div>
+
+<br/><br/>
+<img src='x.jpg' width='100'><br/>
+<h2>ERROR!!</h2>
+<p>Text</p>
+<button class='cancel'>OK</button>
+</div>
+
+</body>
+</html>

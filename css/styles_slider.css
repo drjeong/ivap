@@ -1,0 +1,31 @@
+* {
+	position: relative;
+}
+
+a {
+	color: rgb(0, 128, 195); text-decoration: none;
+}
+a:hover {
+	color: rgb(201, 145, 80);
+}
+
+.scroll {
+	background: rgb(255, 255, 255); height: 225px; overflow: hidden;
+}
+
+.new-panel {
+	width: 920px; height: 255px; padding-right: 40px; float: left;
+}
+
+#slider {
+	margin-top: 30px; font: 12px/1.2 Arial, Helvetica, Sans-serif; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+}
+.slider-subtitle {
+	margin: 0px;
+}
+.slider-text {
+	float: left; display: block; min-height: 50px; min-width: 450px; max-width: 500px; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;
+}
+.scroll-container div.panel {
+	padding: 5px 0px 0px;
+}

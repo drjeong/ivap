@@ -1,0 +1,114 @@
+#slider {
+	margin: 0px auto; width: 960px; height: 268px; position: relative;
+}
+.scroll {
+	background: rgb(255, 255, 255); width: 960px; height: 255px; padding-right: 10px; clear: left; position: relative; overflow-x: hidden;
+}
+.scroll-container div.panel {
+	padding: 20px; width: 910px; height: 255px;
+}
+.panel img {
+	margin: 5px 20px 5px 5px;
+}
+.panel-img {
+	border-width: 1px 1px 1px 1px; border-style: solid; border-color: rgb(217, 217, 217) rgb(168, 168, 168) rgb(168, 168, 168) rgb(217, 217, 217); padding: 4px; margin-right: 15px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.scroll p {
+	width: 500px; float: left;
+}
+ul.slider-navigation {
+	background: rgb(65, 95, 129); list-style: none; margin: 0px; padding: 0px; height: 45px; text-align: center; display: block; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#415f81', endColorstr='#1a2734');
+}
+ul.slider-navigation li {
+	margin: 0px; font-family: Diavlo Light, Arial,Helvetica,Sans-serif; font-size: 16px;
+}
+ul.slider-navigation a {
+	padding: 15px; color: rgb(153, 199, 223); line-height: 15px; text-decoration: none; float: left;
+}
+ul.slider-navigation a:hover {
+	background: rgb(153, 199, 223); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99c7df', endColorstr='#415f81');
+}
+ul.slider-navigation a.selected {
+	background: rgb(153, 199, 223); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99c7df', endColorstr='#415f81');
+}
+ul.slider-navigation a:focus {
+	background: rgb(153, 199, 223); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99c7df', endColorstr='#415f81');
+}
+.hide {
+	display: none;
+}
+#slider-shadow-top {
+	background: url("slider-shadow.png") no-repeat 0px 0px; height: 5px;
+}
+
+#slider-shadow {
+	background: url("slider-shadow.png") no-repeat 0px 0px; height: 35px;
+}
+.main_view {
+	float: left; position: relative;
+}
+.window {
+	width: 935px; height: 230px; overflow: hidden; position: relative;
+}
+.image_reel {
+	left: 0px; top: 0px; position: absolute;
+}
+.image_reel img {
+	float: left;
+}
+#slider .paging {
+	background: url("paging-bg.png") no-repeat; 
+	margin: 0px; padding: 0px; width: 195px; height: 54px; 
+	text-align: center; right: -19px; bottom: 5px; line-height: 38px; 
+	display: none; position: absolute; z-index: 100;
+}
+#slider .paging a {
+	margin: 0px; padding: 4px 7px; color: rgb(0, 87, 125); text-decoration: none;
+}
+#slider .paging a.active {
+	background: rgb(0, 82, 116); margin: 0px; border: 1px solid rgb(153, 153, 153); color: rgb(255, 255, 255); font-weight: bold; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#005274', endColorstr='#001a36'); -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
+}
+#slider .paging a:hover {
+	background: rgb(230, 174, 10); color: rgb(255, 255, 255); font-weight: bold; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#efb50a', endColorstr='#e6ae0a'); -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
+}
+.scroll {
+	background: url("slider-bg.png") no-repeat; height: 225px; overflow: hidden;
+}
+
+.new-panel {
+	margin-top:15px; width: 920px; height: 255px; padding-right: 40px; float: left;
+}
+
+#slider {
+	margin-top: 5px; font: 12px/1.2 Arial, Helvetica, Sans-serif; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+}
+.slider-subtitle {
+	margin: 0px;
+}
+.slider-title {
+	margin: 0px; font:11px;
+}
+
+.slider-text {
+	font: 8px; float: left; display: block; min-height: 50px; min-width: 400px; max-width: 680px; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px;
+	
+}
+.scroll-container div.panel {
+	padding: 5px 0px 0px;
+}
+
+
+a.learn-more-button-small span {
+	width:130px;
+    height:44px;
+    visibility:visible;
+    float:left;
+	background-position:-5px 0px;
+    margin:10px 0 20px 0;
+}
+a.learn-more-button-small span {
+    background:url("learn-more.png") no-repeat left top;
+	}
+a.learn-more-button-small span:hover{
+    background-position:-132px 0px;
+    }

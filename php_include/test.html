@@ -1,0 +1,20 @@
+<html>
+<link rel="stylesheet" type="text/css" href="sweet-alert.css" />
+<script src="sweet-alert.js"></script>
+<script type="text/javascript">
+	function msg() {
+		Swal.fire({
+			title: "Deleted!",
+			text: "The selected advising sheet has been deleted succesfully.",
+			icon: "success",
+			confirmButtonText: "OK",
+			closeOnConfirm: false
+        }).then(function(result){
+			window.location.assign("advising_sheets.php");			
+		});
+	}
+</script>
+<body onload="msg();">
+</body>
+</html>
+

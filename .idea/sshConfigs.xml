@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="csitcloud.udc.edu" id="122f2a41-9471-4587-b1e1-7e4bcd5512c4" keyPath="C:\cygwin64\home\dj\rainfall.ppk" port="22" customName="rainfall@csitcloud.udc.edu:22" nameFormat="CUSTOM" username="rainfall">
+        <option name="customName" value="rainfall@csitcloud.udc.edu:22" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
