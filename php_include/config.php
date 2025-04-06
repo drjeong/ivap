@@ -79,7 +79,7 @@ if (!class_exists('Config')) {
                 'db' => [
                     'type' => 'sqlite',
                     'host' => '',
-                    'name' => $parent_parent_path . DIRECTORY_SEPARATOR . 'DB/precipitation_allstates.db',
+                    'name' => $parent_parent_path . DIRECTORY_SEPARATOR . 'DB' . DIRECTORY_SEPARATOR. 'precipitation_allstates.db',
                     'user' => '',
                     'pass' => '',
                     'timezone' => 'America/New_York'
