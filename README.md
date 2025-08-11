@@ -11,3 +11,11 @@ You must use the dataset from https://zenodo.org/records/15114251 and copy it un
 
 
 Jeong, D. H., Behera, P., Jeong, B. K., Sangama, C. L., Higgs, B., & Ji, S. Y. (2025). Designing an Interactive Visual Analytics System for Precipitation Data Analysis. Preprints. https://doi.org/10.20944/preprints202503.2365.v1
+
+This material is based upon work supported by the National Science Foundation under
+grant nos. 2107451 and 2219532. Research was sponsored by the Army Research Office and was
+accomplished under grant number W911NF-23-1-0217. The views and conclusions contained in
+this document are those of the authors and should not be interpreted as representing the official
+policies, either expressed or implied, of the Army Research Office or the U.S. Government. The
+U.S. Government is authorized to reproduce and distribute reprints for Government purposes
+notwithstanding any copyright notation herein.
